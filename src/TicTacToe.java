@@ -77,7 +77,7 @@ public class TicTacToe {
                 }
 
                 // Check if position is empty
-                int row = (pos - 1) / 3 * 2;
+                int row = (pos - 1) / 3 * 2; 
                 int col = ((pos - 1) % 3) * 2;
                 if (board[row][col] != ' ') {
                     System.out.println("Position already taken! Try again.");

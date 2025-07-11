@@ -9,34 +9,42 @@ class Pen {
         System.out.println(this.color);
     }
 }
-class Student{
+class Student {
     String name;
     int age;
-    public void printInfo(String name){
+
+    public void printInfo(String name) {
         System.out.println(name);
     }
-    public void printInfo(int age){
+
+    public void printInfo(int age) {
         System.out.println(age);
     }
-    public void printInfo(String name, int age){
-        System.out.println(name+" "+ age);
+
+    public void printInfo(String name, int age) {
+        System.out.println(name + " " + age);
     }
 
     //Constructor Non parameterized
-    Student(){
+    Student() {
         System.out.println("Constructor called");
     }
+
     //Prameterized constructOR
    /* Student(String name,int age){
         this.name=name;
         this.age=age;
     }*/
     //Copy constructor
-    Student(Student s2){
-        this.name=s2.name;
-        this.age=s2.age;
+    Student(Student s2) {
+        this.name = s2.name;
+        this.age = s2.age;
     }
 
+
+    public void test() {
+        System.out.println("Helloo I am test ");
+    }
 }
 
 public class oops {

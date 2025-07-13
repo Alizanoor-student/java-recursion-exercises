@@ -1,7 +1,7 @@
 class Student2 {
     String name;
     int age;
-   //Method overloadingeverything is running but the upper ck=
+   //Method overloading
     public void printInfo(String name) {
         System.out.println(name);
     }

@@ -12,7 +12,7 @@ public class WrapperExample {//defines a class named WrapperExample
         System.out.println("Unboxed int: " + value);
         System.out.println("Double object: " + price);
         System.out.println("Unboxed double: " + cost);
-    }
+    } 
     //Final keyword in java with primitive  types
     /*final int bonus=7;
     bonus=2;// its giving an error because ones its defined the value cannot be changed*/
